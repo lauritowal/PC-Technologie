@@ -1,0 +1,1550 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "3f844abc-d49c-11ea-ad1f-001cc2451923",
+    "deck_config_uuid": "3f8454da-d49c-11ea-ad1f-001cc2451923",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "3f8454da-d49c-11ea-ad1f-001cc2451923",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 1300,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "Screenshot 2020-08-02 at 10.18.12.png",
+        "Screenshot 2020-08-02 at 10.22.41.png",
+        "Screenshot 2020-08-02 at 10.23.18.png",
+        "Screenshot 2020-08-02 at 10.23.59.png",
+        "Screenshot 2020-08-02 at 10.24.37.png",
+        "Screenshot 2020-08-02 at 10.26.54.png",
+        "Screenshot 2020-08-02 at 10.27.41.png"
+    ],
+    "name": "PC-Technologie",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.1 Welche Arten von PCs kann man unterscheiden?",
+                "Es gibt die sogenannten Universalcomputer, wozu Rechner gehören wie Notebooks, DesktopPCs, Server oder Clustersysteme. Dann gibt es noch die Spezialcomputer. Dazu gehören z.B.\nHandys, Spieleconsolen oder KFZ-Rechner."
+            ],
+            "guid": "NN-tuNCV%3",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.2 Aus welchen Komponenten besteht ein PC?",
+                "Hauptplatine\nGraphikkarte\nSchnittstellenkarte für PCI-Express oder anderen BUS\nHDD\nFDD\nCD-ROM/DVD\nMonitor, Tastatur, Maus"
+            ],
+            "guid": "wQhgTC(AFd",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.3 Nennen Sie die Komponenten der Hauptplatine\n(Mainboard)",
+                "- Mikroprozessor\n- Module des Hauptspeichers\n- Steckplatz für Grafikkarte\n- Peripherie- oder Erweiterungsbusse mit Steckplätzen\n- Chipsatz\n- Steuer- und Schnittstellenbausteine"
+            ],
+            "guid": "LJ+Rp0C8rM",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.4 Woraus besteht ein Chipsatz?",
+                "Aus ein bis drei Chips, die den Prozessor mit dem Speichersystem und den Eingabe-Ausgabe\nKomponenten verbindet."
+            ],
+            "guid": "$].C$]BKF",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.5 Wozu braucht man diese Art der Kopplung zwischen den\nKomponenten?",
+                "Diese Kopplung wird benötigt, da CPU, Speicher und Eingabe-Ausgabegeräte mit unterschiedlichen Geschwindigkeiten arbeiten."
+            ],
+            "guid": "DuNtnmmZd$",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.6 Was macht das BIOS?",
+                "Das BIOS ermöglicht dem Betriebssystem Zugriff auf die Hardwarekomponenten. Die Hardware wird so für das Betriebssystem transparent. Weiterhin ermöglicht das BIOS einen gewissen\nGrad an Konfiguration."
+            ],
+            "guid": "yCa0-(Iy.{",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.7 Aus welchen Brückenbausteinen besteht heutzutage häufig ein\nChipsatz?",
+                "Aus North- und Southbridge."
+            ],
+            "guid": "mIfkf;T7$I",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.8 Wie nennt man diese Brückenbausteine (SouthBridge und NorthBridge) noch?",
+                "• Northbridge wird auch Memory Controller Hub (MCH) genannt\n• Southbridge wird auch I/O Controller HUB (ICH) genannt\n2\n1.1 A"
+            ],
+            "guid": "fJ$Fau+0YZ",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.9 Was sind die Aufgaben der North- und South Bridge Bausteine?",
+                "Die Northbridge verbindet den Prozessor mit allen Komponenten die einen schnellen Datentransfer benötigen. Z.B. den Hauptspeicher und der Graphikkarte.\nDie Southbridge verbindet den Prozessor oder Hauptspeicher mit einer Reihe von integrierten\noder extern hinzugefügten Controllern, die hauptsächlich die Steuerung von Massen- oder EinAusgabegeräte übernehmen"
+            ],
+            "guid": "E4=Qyl%0z]",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.10 Was für einen Baustein kann es darüberhinaus noch geben und was sind\nseine Aufgaben?",
+                "Einene sogenannten Super-IO-Baustein. Dieser beinhaltet oft unter anderem folgende Komponenten:\n• Tastatur- und Mauscontroller\n• Floppy Disk Controller\n• MIDI-Controller\n• Power Management"
+            ],
+            "guid": "c|M0^P4tEX",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.11 Wodurch sind North- und Southbridge miteinander verbunden?\nBeschreiben Sie die Eigenschaften und Arten.",
+                "Durch das sogenannte HUB-Interface. Diese Schnittstelle wurde früher duch den 133 MB/s\nschnellen (langsamen) PCI-Bus realisiert. Intel setzt mittlerweile das DMI (Direct Media Interface) ein mit maximal 2 GB/s. AMD setzt den HyperTransportBus ein mit bis zu 52\nGB/s.\nMittlerweile wird bei neueren Chipsätzen von AMD ein 4x4 breiter PCI-Express BUS eingesetzt. Dieser hat laut Spezifikation eine Übertragungsrate von 4 GB/s."
+            ],
+            "guid": "O{dqS-^eHM",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.12 Was versteht man unter einer HUB-Architektur?",
+                "Darunter versteht man im Allgemeinen den Aufbau und die Verbindung der Chipsatzkomponenten, im speziellen North- und Southbridge, welche durch ein Hub-Interface miteinander\nverbunden sind"
+            ],
+            "guid": "z4I*)2{n#_",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.13 Erläutern Sie den Einfluss des Chipsatzes auf die Leistungsfähigkeit\neines PCs.",
+                "Der Chipsatz hat einen großen Einfluss auf die Leistungsfähigkeit eines PCs, da er für die gesamte Steuerung des Systems zuständig ist. Je besser dieser auf den CPU und die Komponenten\nabgestimmt ist, desto schneller ist der PC."
+            ],
+            "guid": "NxZ<XTD4!N",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.14 Wie heißt die Verbindung zwischen CPU und Northbridge? Nennen Sie\ndie verschiedenen Typen.",
+                "Diese Schnittstelle wird FSB (Front Side Bus) oder auch Prozessorbus genannt.\nAMD setzt mittlerweile die sogenannte HyperTransport-Schnittstelle ein. Dies ist eine Punktzu-Punkt Verbindung mit Zweiflankenübertragung.\nIntel benutzte lange den FSB, stieg ab der Prozessorlinie Core i7 auf die QuickPath InterconnectSchnittstelle um."
+            ],
+            "guid": "pEK?~1z[JX",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.15 Was sind die Aufgaben des Speichercontrollers und wo befindet sich\ndieser?",
+                "Der Speichercontroller erlaubt den Zugriff auf den Speicher und befindet sich normalerweise\nin der Northbridge. Neuere Systeme integrieren den Speichercontroller direkt in die CPU, wodurch schnellere Geschwindigkeiten erreicht werden können, da der CPU so dedizierte Kanäle\nzur Verfügung gestellt werden."
+            ],
+            "guid": "u2gIL:}X|u",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.16 Wie wird die Grafikkarte an die Northbridge\nangeschlossen?",
+                "Über eine PCI-Express Schnittstelle. Der Graphikkartenanschluss wird über PCIe-16x, was bedeutet parallele Lanes mit je 500 MB/s pro Richtung, also pro Lane 1 GB/s, macht insgesamt\n16 GB/s."
+            ],
+            "guid": "A|+K[|@@2K",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.17 Welche Schnittstellen oder Controller sind oder können an die\nSouthbridge angeschlossen werden bzw. beinhaltet die\nSouthbridge?",
+                "USB-Schnittstelle\n• Firewire\n• PCI\n• PCI-Express&nbsp;IDE-Schnittstelle (auch ATA, Advanced Technology Attachment genannt)\n• Serial-ATA\n• AC’97\n• HDA\n• LAN\n• SMBus\n• LPC\n• Interrupt-Controller"
+            ],
+            "guid": "h/ylXC3_h|",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.18 Welche Geschwindigkeitsstufen hat ein\nUSB-Anschluss?",
+                "Low-Speed: 1,5 Mbit/s\nFull-Speed: 12 Mbit/s\nHigh-Speed: 480 Mbit/s"
+            ],
+            "guid": "c@oSV%qruk",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.19 Welche Arten der Übertragung gibt es und wie werden diese\nrealisiert?",
+                "Daten werden in bestimmten Polling-Rahmen übermittelt. Es gibt unterschiedliche Zeitschlitze\nfür verschiedene Datentypen und Übertragungen.\n• isochrone Übertragung: für zeitkritische Daten die keine Fehlerübermittlung bedürfen.\n• Interruptdaten\n• Steuerdaten\n• Massendaten: für nicht zeitkritische Daten die Fehlerüberprüfung bedürfen."
+            ],
+            "guid": "wl7vC]V/P4",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.20 Welche Betriebsarten sieht die AMD64 Architektur vor?",
+                "• 32-bit native Mode - arbeitet wie ein herkömmlicher 32-bit Prozessor, kann zusätzlich\nSSE-Befehle nutzen.\n• 64-bit native Mode - die neuen 64-bit Befehle und Register werden eingesetzt.\n• 64-bit Kompatibilitätsmodus - kann auch 32-bit Software mit entsprechendem Betriebssystem ausführen"
+            ],
+            "guid": "g5}Bk+Et`Z",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.21 Erläutern Sie den Befehlsladeprozess eines AMD-K10\nProzessors.",
+                "Der Instruction Prefetcher (IPF) lädt nach erfolglosem Zugriff auf den L1-Cache (CacheMiss) Daten aus dem L2-Cache + 64 Byte des Folgeeintrages. Weiterhin werden sogenannte\nPredecode-Bits erzeugt und im L1-Cache abgelegt. Diese helfen der Fetch Unit zum Entscheid\nwelcher Decoder genutzt werden soll.\nDie Befehlsladeeinheit überträgt die auszuführenden Befehle aus dem Instruction Cache (ICache oder L1-Cache) in den Fetch Buffer in der Decoder Einheit. Die Befehlsladeeinheit\nwertet auch die Predecode-Bits aus und entscheidet welcher Decoder welchem Befehl zugeordnet werden muss. Ist unter den Befehlen ein Befehl mit Sprung- oder Verzweigungsfehl, so\nwird die Branch Prediction Unit aktiviert. Diese hat einen Branch Target Buffer (BTB) für\ndie Adressen von Sprungbefehlen und ihren Zielen, sowie eine Ablage für Rücksprungadressen,\nReturn Address Stack (RAS).\nDa ein K10-Kern 3-fach superskalar ist, können bis zu drei x86-Befehle gleichzeitig aus dem\nFetch Buffer in einen Vor-Decoder übertragen werden. Dieser stellt fest, ob es sich um einfache oder komplexe Instruktionen bzw. Instruktionen zur Verwaltung eines Stacks handelt und\nweist diese dann den geeigneten Decoder zu.\nFür einfache Instruktionen gibt es den sogenannten Direct Path mit drei parallelen Decodern.\nDiese Befehle werden in ein oder zwei RISC-ähnliche Instruktionen umgesetzt, sogenannte\nMacro-Ops. Diese sind entweder eine ganzzahlige oder Gleitkomma-Operation. Komplexe\nBefehle werden von einem Mikroprogramm-Steuerwerk auf dem Vector Path verarbeitet, der\nsie in mindestens drei, oft viel mehr MacroOps umsetzt. Der letzte Decoder ist für die Entschlüsselung von Stack-Befehlen.\nVon den Decodern werden die MacroOps an die Befehlssteuereinheit des RISC-Kerns weitergeleitet. Es können pro Takt immer nur 3 Befehle weitergeleitet werden. Die Befehlssteuereinheit ist für die Zuteilung der MacroOps an die Ausführungseinheiten zuständig sowie für die\nInterrupt- und Ausnahmeverwaltung, Auflösung von Registerabhängigkeiten und Setzen der\nStatusflags.\nDie Befehle kommen in eine Integer-Einheit oder eine Gleitkomma-Einheit. Die IntegerEinheit besteht aus drei unterschiedlichen und unabhängigen Pipes, welche sich um die Bearbeitung von Befehlen mit Ganzzahligen Operanden und Ergebnissen aber auch um die Adressberechnung kümmern. Jede Integer-Einheit besteht aus einer Arithmetisch/Logischen Einheit\n(ALU) und einem Adressrechenwerk (AGU). Diese können Ganzzahl und Adressberechnungen parallel ausführen. Eine ALU besitzt zusätzlich einen Parallel-Multiplizierer (MUL), eine\nzweite besitzt ein Rechenwerk für Bitmanipulationen (ABM).\nDie Gleitkomma-Einheit (FPU) verarbeitet sämtliche Gleitkomma- sowie alle MultimediaBefehle. Zu den Multimedia-Befehlen gehören die Befehle für ganzzahlige Operationen MMX(Multi-Media-Extension) bzw. 3DNow! sowie die Befehle für Gleitkommazahlen, die so genannten SSE-Instruktionen (Streaming SIMD Extension). SIMD bedeutet Single Instruction, Multiple Data, womit sich mit Hilfe eines Befehls mehrere Daten zu gleich laden lassen. Die Ausführungseinheiten haben verschiedene Operationsklassen, z.B. Addierer (FADD),\nMultiplizierer (FMUL) und für restliche Befehle einschließlich der Multimedia-Befehle\n(FMISC).\nDie Lade-Speichereinheit verwaltet die Zugriffe auf den L1-Daten-Cache"
+            ],
+            "guid": "o^LGraJb&9",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.22 Worin unterscheidet sich der Aufbau eines K10-Mehrkernprozessors von\ndem eines K10-Einprozessorsystem? Erläutern Sie die\nUnterschiede",
+                "Mehrkernprozessoren verfügen zusätzlich über einen gemeinsamen L3-Cache als Victim Cache. Der Zugriff der einzelnen Kerne auf den L3-Cache wird vom System Request Interface (SRI) gesteuert. Der Speichercontroller ist integriert. Für die Kommunikation mit\nder Peripherie stehen drei unabhängige HyperTransport-Schnittstellen zur Verfügung. Der\nKreuzschienenschalter realisiert die vielfache Zugriffsmöglichkeiten. Hinweis: Über drei HTSchnittstellen verfügt nur der Opteron-Prozessor. Athlon und Phenom verfügen über eine HTSchnittstelle."
+            ],
+            "guid": "b9,zgC:M4q",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.23 Welche Betriebsarten sieht die Intel Architektur vor?",
+                "• Einen Kompatibilitätsmodus in dem ein 64-bit Betriebssystem auch 32-bit Programme\nausführen kann.\n• Einen 64-bit Modus."
+            ],
+            "guid": "uz#33Z)2od",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.24 Erläutern Sie den Befehlsladeprozess der Intel Core 2\nArchitektur",
+                "Aus dem I-Cache werden die Befehle von der Befehlsladeeinheit dem Decoder zugeführt. In\neinem Vordecoder wird ermittelt ob es sich um einfache oder komplexe Befehle handelt und\nob es Sprung- oder Verzweigungsbefehle sind. Im letzteren Fall wird die Branch Prediction Unit aktiviert. Die vordecodierten Befehle werden in einem Fetch Buffer zwischengelagert. Anschließend können die Befehle (bis zu sechs gleichzeitig) in die Befehls-Warteschlange\nübertragen werden. Zur Beschleunigung gibt es die Möglichkeit zwei geeignete Befehle zusammenzufassen. Dies wird als MacroOps Fusion bezeichnet. Die eigentliche Decodierung\nfindet anschließend in den entsprechenden Decodierern für einfache oder komplexe Befehle statt. Diese erzeugen für einfache Befehle eine und für komplexe vier sogenannter MicroOperationen. Die Core-2 Architektur ist 4-fach superskalar, mit MacroOps Fusion sogar 5-\nfach. Die decodierten Befehle werden in einen Micro-Op-Buffer eingelagert (Bis zu sieben\nStück).&nbsp;Aus dem I-Cache werden die Befehle von der Befehlsladeeinheit dem Decoder zugeführt. In\neinem Vordecoder wird ermittelt ob es sich um einfache oder komplexe Befehle handelt und\nob es Sprung- oder Verzweigungsbefehle sind. Im letzteren Fall wird die Branch Prediction Unit aktiviert. Die vordecodierten Befehle werden in einem Fetch Buffer zwischengelagert. Anschließend können die Befehle (bis zu sechs gleichzeitig) in die Befehls-Warteschlange\nübertragen werden. Zur Beschleunigung gibt es die Möglichkeit zwei geeignete Befehle zusammenzufassen. Dies wird als MacroOps Fusion bezeichnet. Die eigentliche Decodierung\nfindet anschließend in den entsprechenden Decodierern für einfache oder komplexe Befehle statt. Diese erzeugen für einfache Befehle eine und für komplexe vier sogenannter MicroOperationen. Die Core-2 Architektur ist 4-fach superskalar, mit MacroOps Fusion sogar 5-\nfach. Die decodierten Befehle werden in einen Micro-Op-Buffer eingelagert (Bis zu sieben\nStück)."
+            ],
+            "guid": "kqUnv[IC1L",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.25 Durch welche Maßnahmen kann der Engpass zwischen der CPU und\ndem Speicher überwunden werden?",
+                "Durch Vervielfachung des Bustaktes durch Strobe-Signale."
+            ],
+            "guid": "GRVQx&zo6A",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.26 Welche Unterschied/Verbesserungen hat der Core i7 gegenüber der Core\n2 Architektur?",
+                "Jeder Core hat einen eigenen privaten L2-Cache. Diverse Buffer wurden zur Optimierung vergrößert bzw. verkleinert."
+            ],
+            "guid": "tK8o2|OX23",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.27 Was ist HyperThreading?",
+                "Mittles HyperThreading können mehrere logische Prozessoren auf einem physischen Prozessorkern arbeiten. Ein Kern kann somit zwei Threads gleichzeitig bearbeiten."
+            ],
+            "guid": "MxB2tWo#]R",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.28 Welche wichtige Neuerung gibt es bei i7-Prozessoren?",
+                "Die wichtigste Neuerung ist die QuickPath Interconnect Schnittstelle, die den FSB ersetzt."
+            ],
+            "guid": "yer8SXd`cP",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.29 Wie speichern SDRAM Informationen? Was passiert mit der Information\nnach einer gewissen Zeit und wie kann man dies dies\nverhindern?",
+                "Dynamische RAMs besitzen Speicherzellen, die Informationen als Ladungsträger in kleinen\nKondensatoren speichern. Nach einer gewissen Zeit geht die Information durch Leckströme\nverloren. Daher müssen die Speicherbausteine refreshed werden."
+            ],
+            "guid": "GLbD#j],i%",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.30 Was unterscheidet DDR-RAM von SDRAM?",
+                "DDR-RAM sind auch SDRAM Speicher, mit dem Unterschied, dass diese zwei Speicherwörter in den Puffer laden. Diese können mit einem einzigen Takt gelesen werden, und\nzwar mit steigender und fallender Taktflanke. Daher auch der Name DDR (Double Data Rate)."
+            ],
+            "guid": "*.k$TguIj",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.31 Was sind DIMM?",
+                "DIMM bedeutet Dual Inline Memory Module und bezeichnet das Speichermodul. Diese Module haben 120 Kontakte auf jeder Seite."
+            ],
+            "guid": ")8x_/kw3M",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.32 Wie erfolgt die Adressauswahl eines DDR-DIMMs?",
+                "Zuerst wird eine Bank über die drei Bits Bank Address ausgewählt. Dann werden über die\nfolgenden 14-Bits die Row Address übertragen sobald das RAS (Row Address Strobe) Signal\nanliegt. Wird anschließend das CAS (Column Address Strobe) Signal angelegt, so werden\nüber die gleichen Leitungen die Column Adress übertragen."
+            ],
+            "guid": "JpZjH1WL4P",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.1.33 Nennen Sie die wichtigsten Zeitparameter für den Zugriff auf ein\nSpeichermodul?",
+                "• RAS-to-CAS Delay (tRCD): Dies ist die Zeit die zwischen der Übertragung der Zeilenadresse bis zur Zeitpunkt des Anlegens der Spaltenadresse vergeht.\n• CAS Latency (tCL oder nur CL): Gibt an wie lange es dauert bis das Signal an den\nAusgängen des Bausteins anliegt.\n• RAS precharge time (tRP): Die Vorladezeit gibt an wie lange der Speicherbaustein benötigt bis er benutzt werden kann.\n• RAS Pulse width, Bank Active Time (tRAS): Dies ist die minimale Zeit in Taktzyklen\ndie nach Eingabe der Zeilenadresse vergehen muss, bevor mittles RAS Signal eine neue\nAdresse übermittelt werden kann."
+            ],
+            "guid": "j(Tm~pK-_S",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.1 Definieren Sie Betriebssystem",
+                "Ein Betriebssystem setzt sich aus Programmen zusammen,welche die Ausführung von Benutzerprogrammen und die Benutzung von Betriebsmitteln überwacht."
+            ],
+            "guid": "n;<=8H2%Lq",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.2 Was ist die sematische Lücke?",
+                "Diese bezeichnet die Diskrepanz zwischen den Fähigkeiten und Diensten, die Hardwarebausteine zur Verfügung stellen, und den vom Benutzer erwünschten Fähigkeiten des Rechensystems."
+            ],
+            "guid": "mx%=RabopK",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.3 Was sind die Ziele eines Betriebssystems?",
+                "Benutzerfreundlichkeit\n• Effizienz und Zuverlässigkeit\n• Portabilität"
+            ],
+            "guid": "BEe1fv=#8}",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.4 Was sind die Aufgaben eines Betriebssystems?",
+                "Auftragsverwaltung\n• Speicherverwaltung\n• Betriebsmittelverwaltung"
+            ],
+            "guid": "AAV<~^jm)y",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.5 Welche Zustände kann ein Prozess einnehmen? Nennen und beschreiben\nSie diese.",
+                "• aktiv - Der Prozess wird gerade vom Prozessor bearbeitet.\n• blockiert - Der Prozess muss auf ein bestimmtes Ereignis warten. Ende einer I/OOperation, auf einen anderen Prozess, Einlagerung von Daten.\n• bereit - Der Prozess ist bereit vom Prozessor ausgeführt zu werden."
+            ],
+            "guid": "tEjP7|s#e$",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.6 Wie sind die möglichen Zustandsübergänge eines\nProzesses?",
+                "Ein aktiver Prozess kann in den Zustand blockiert übergehen, d.h. er wartet beispielsweise auf\ndas Laden der Daten von der Festplatte. Jetzt kann dem Prozessor ein anderer bereiter Prozess zugeteilt werden. Ist die Operation auf die der erste Prozess warten muss abgeschlossen, so geht er in den Zustand bereit über, so dass er wieder vom Prozessor bearbeitet werden\nkann."
+            ],
+            "guid": "Iq;![?kza9",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.7 Was versteht man unter virtuellem Speicher?",
+                "Durch den Einsatz von Multitasking Betriebssystemen können mehrere Programme gleichzeitig\nausgeführt werden. Somit stößt man selbst bei heutigen großen Arbeitsspeichern schnell an die\nGrenzen. Um dieses Problem zu lösen wurde das Konzept des virtuellen Speichers eingeführt.\nDas bedeutet, dass nur die gerade benötigten Teile des Programms in den Speicher geladen\nwerden. Andere Teile werden in einen Hintergrundspeicher ausgelagert und bei Bedarf in den\nSpeicher nachgeladen. Man macht sich die Lokalitätseigenschaft von Prozessen zu nutze: Programme nutzen nur immer einen Teil ihrer Daten und Programmcodes. Häufig wird ein geringer\nCodeteil sogar mehrfach benutzt."
+            ],
+            "guid": "nV*g4C-qsH",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.8 Was ist die Hauptaufgabe der virtuellen\nSpeicherverwaltung?",
+                "Die Umsetzung virtueller (logischer) Adressen in physikalische Adressen."
+            ],
+            "guid": "e9BZi^,i<$",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.9 Was ist Segmentierung und was ist seitenorientierte Speicherverwaltung\n(Paging)?",
+                "Bei Segmentierung ist der virtuelle Adressraum im Segmente verschiedener Länge aufgeteilt. Jedem Prozess sind mehrere Segmente zugeteilt für Daten und Code, mindestens je\neins. Semente enthalten logisch zusammenhängende Informationen und können recht groß\nsein.\nBei Paging wird der Adressraum in SSegmente fester Längeëingeteilt. Diese werden Seiten genannt. Seiten sind relativ klein, kleiner gleich 8kb, können aber auch bis 4 MB groß\nsein."
+            ],
+            "guid": "Q7kF.@Ax*f",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.10 Nennen Sie die Probleme virtueller Speicherverwaltung beim Austausch\nzwischen Haupt- und Hintergrundspeicher!",
+                "Es ergeben sich drei Hauptprobleme:\n• der Einlagerungszeitpunkt\n• das Zuweisungsproblem\n• das Ersetzungsproblem"
+            ],
+            "guid": "nXlRGMp]:`",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.11 Nennen Sie die Zuweisungsstrategien!",
+                "Bei der Segmentierung können Lücken entstehen, die verschieden groß sein können drei Strategien eingesetzt werden:\n• first-fit: das Element wird in die zuerst passende Lücke eingefügt\n• best-fit: das Element wird in die gerade noch passende Lücke eingefügt\n• worst-fit: das Element wird stets in die größte Lücke eingefügt."
+            ],
+            "guid": "LZaN.>V]Q{",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.12 Gibt es ein Zuweisungsproblem beim Paging? Begründen Sie ihre\nAntwort!",
+                "Nein das gibt es nicht, das eine Lücke immer ganzzahliges vielfaches der Seiten ist. Somit passt\neine Lücke immer, bzw. jede passt."
+            ],
+            "guid": "l*AiSPbFB8",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.13 Nennen Sie die Verdrängungsstrategien\n(Ersetzungsproblem)",
+                "FIFO - first in first out - die Seite wird ersetzt die am längsten im Arbeitsspeicher ist\nLIFO - last in last out - die Seite wird ersetzt die zuletzt eingelagert wurde.\nLRU - least recently used - die Seite wird ersetzt auf die am längsten nicht mehr zugegriffen\nwurde\nLFU - least frequently used - die Seite wird ersetzt auf die am seltensten zugegriffen wurde"
+            ],
+            "guid": "Q2}!{>oY<N",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.14 Welche Cache-Typen gibt es zwischen Speicher, MMU und\nCPU?",
+                "• virtueller Cache - zwischen CPU und MMU\n• physikalischer Cache - zwischen MMU und Speicher\nEs gibt auch noch eine Mischform."
+            ],
+            "guid": "Egb.C~&r9Q",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.15 Welche Adressierungsmodus gibt es?",
+                "Real Address Mode. Bei diesem Modus sind nur 20 Bit physikalische Adressen zugelassen,\nsomit auf 1 MB beschränkt.\nProtected (Virtual Address) Mode."
+            ],
+            "guid": "yXBMDs#6()",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.16 Beschreiben Sie die Abläufe beim Zugriff auf Speicher mit\nsegment-/seitenorientierter Verwaltung!",
+                "Beim segmentorientiertem Speicher besteht die virtuelle Adresse aus dem Segment Selektor\nund einem Offset. Der Segment Selektor zeigt auf eine Adresse in der Segement Descriptor Table. Diese enthält die Segment Basisadresse. Zur Segment Basisadresse wird der Offset addiert.\nDamit erhält man die lineare Adresse des Speicherwortes.\nBei seitenorientierem Speicher enthält die lineare Adresse. Das CR3-Register enthält die Basisadresse des Seitentabellenverzeichnisses. Die höchstwertigen 10 Bits der linearen Adresse\nselektieren durch Konkatenation des CR3-Registers einen Eintrag im Seitentabellenverzeichnis. Die nächsten 10 Bits der linearen Adresse konkateniert mit dem Inhalt des selektierten Seitentabellenverzeichniseintrags verweist auf die entsprechende Seitentabelle. Schließlich ergibt\ndieser Inhalt + den Offset der linearen Adresse die physikalische Adresse."
+            ],
+            "guid": "PdC[@F4;)U",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.17 Womit wird angezeigt ob es sich um eine 4kb oder 4MB Seite\nhandelt?",
+                "Dies wird mit dem Bit PS (Page Size) im Eintrag des Seitentabellenverzeichnisses angezeigt. Ist\ndieser Wert 0, dann ist dies eine 4kb Seite, d.h. die Adresse verweist nun auf eine Seitentabelle,\nist der Wert 1, dann handelt es sich um eine 4 MB Seite, dann verweist die Adresse direkt auf\neine physikalische Adresse."
+            ],
+            "guid": "EG^jX+t{~o",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.18 Woran wird erkannt, ob eine Seite sich im Haupt- oder\nHintergrundspeiciher befindet?",
+                "Durch das P-Bit (Present-Bit) im Seitentabellenverzeichnis."
+            ],
+            "guid": "ySDRAuf}-J",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.19 Warum werden Schutzmechanismen benötigt? Geben Sie Beispiele\nan.",
+                "Um die Systemsoftware zu trennen, z.B. Betriebssystem und das BIOS.\nUm die Anwendungsprozesse voneinander zu trennen.\nZur Datentyp-Überprüfung.\nÜberwachung der Segmentgröße."
+            ],
+            "guid": "r#]NwO+Rm(",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.20 Wie viele Schutz- oder Privilegebenen gibt es? Nennen Sie\ndiese.",
+                "Es gibt vier Schutzebenen bei Segmenten, angezeigt durch das DPL-Bit (Descriptor Privilege\nLevel) im Segment Descriptor (Eintrag in der Segment Deskriptor Tabelle).\n• PL 0 - Betriebssystemkern\n• PL 1 - BIOS\n• PL 2 - Kommando-Interpreter\n• PL 3 - Anwendungen\nBei Seiten gibt es nur zwei angezeigt durch das U/S (User/Supervisor-Bit) im Eintrag eines\nSeitentabellen-Verzeichnisses:\n• User-Mode\n• Supervisor-Mode"
+            ],
+            "guid": "niA>*njT}h",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.21 Welche Regeln gibt es für den Zugriffsschutz auf Daten und Code?\nGeben Sie diese jeweils an.",
+                "Daten: Ein Prozess darf nur auf Daten zugreifen, die höchstens genauso vertrauenswürdig sind,\nwie er selbst.\nCode: Ein Prozess darf nur Code benutzen, der mindestens genauso vertrauenswürdig ist, wie\ner selbst."
+            ],
+            "guid": "rhbvR/U;cP",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.22 Für die Realisierung werden bei x86-Prozessoren drei Werte\nherangezogen. Wie lauten diese?",
+                "• Current Privilege Level (CPL)\n• Deskriptor-Privilege Level (DPL)\n• Requested-Privilege Level (RPL)"
+            ],
+            "guid": "iv%7#/c]Fe",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.23 Wie kann ein Prozess auf Code zugreifen, der eine höhere Privileg-Ebene\nhat als er selbst?",
+                "Durch Call-Gates."
+            ],
+            "guid": "t^IDV2tnDf",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.24 Wie ist der Ablauf der Überprüfung der Zugriffsrechte beim Zugriff auf\neinen neuen Selektor?",
+                "Zeigt der Index im Selektor auf einen Eintrag in der LDT/GDT (Limit checking)?\n• Prüfung der Zugriffsrechte über das Access Byte. Ist das Segment im Speicher vorhanden, d.h. ist das Present Bit (P) gesetzt? Besitzt das Segment den richtigen Segmenttyp?\nAccess Byte. Ist die Privilegebene gültig: RPL größer gleich DPL, für Daten: CPL kleiner\ngleich DPL, für Code: CPL größer gleich DPL"
+            ],
+            "guid": "k`<)=D]/d?",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.25 Was versteht man unter einem Prozess?",
+                "Ein Prozess ist ein laufendes Computerprogramm. Ein Programm kann auch mehrere Prozesse\nbeinhalten."
+            ],
+            "guid": "JM*KyLwD9r",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.26 Welche Zustandsübergänge gibt es?",
+                "Ein Prozess kann aktiv sein, dann wird er ausgeführt. Er kann übergehen in den Status blockiert,\ndann wartet er auf Daten oder IO-Operationen. Ist er nicht mehr blockiert geht er in den Zustand\nbereit. Damit ist er erneut bereit zur Ausführung. Sobald der Prozessor frei ist und den Prozess\nausführt wird er wieder in den Zustand aktiv gesetzt."
+            ],
+            "guid": "u8O/L>OU>#",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.27 Unter dem Zustand eines Prozesses versteht man den gesamten\nKontext, in dem er sich bei seiner Unterbrechung befindet. Nennen Sie\nfünf wichtige Informationen, die zu einem solchen Kontext\ngehören!",
+                "Inhalte aller allgemeinen Register der ALU\n• Inhalte des Statusregisters und Stand des Befehlszählers\n• Wert der Stackpointer\n• Inhalt der Segmentregister, des LDT-Registers und des CR3-Registers\n• Inhalte sonstiger Systemregister"
+            ],
+            "guid": "f_>N#rkCX_",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.28 Worin werden diese Daten gespeichert?",
+                "In einer speziellen Datenstruktur - Prozess-Kontroll-Block oder auch TSS (Task State Segment)\ngenannt."
+            ],
+            "guid": "A+Tt&I;JhD",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.29 Wie können Prozesse bei Segmentierung miteinander\nkommunizieren?",
+                "Durch Data Sharing mit Hilfe der GDT Einfachste Möglichkeit, jedoch können somit alle\nProzesse auf den Code und die Daten zugreifen denen dies nach Privilegprüfung möglich\nist.\n• Data Sharing mit einer gemeinsamen LDT\n• Data Sharing durch Aliasing"
+            ],
+            "guid": "f5T{XM;`d[",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.30 Wie geht das bei Paging?",
+                "Data Sharing über ein gemeinsames Seitentabellenverzeichnis\n• Data Sharing über eine gemeinsame Seitentabelle\n• Data Sharing über eine gemeinsame Seite"
+            ],
+            "guid": "OAxiSf!1(&",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Welche Ausnahmesituationen gibt es bei Prozessen und wie werden\ndiese angezeigt?",
+                "• Interrupts, die durch externe Ereignisse über die INTR- oder NMI-Leitung generiert werden.\n• Durch den INT-Befehl erzeugte Software-Interrupts\n• Traps, treten auf, wenn ein Fehler bei der Abarbeitung auftritt."
+            ],
+            "guid": "QX;A@O0!#W",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.2.32 Wie wird mit einer Ausnahmesituation verfahren? Wie ist der\nAblauf?",
+                "Jede Ausnahme hat eine Vektornummer von 0 - 255. Wie verfahren wird ist in der IDT (Interrupt\nDescriptor Table) gespeichert. Diese Verweisen auf die Behandlungsroutine. Ein Zugriff auf die\nIDT erfolgt nur nach vorherigem Auftreten einer Ausnahme."
+            ],
+            "guid": "Mg35.):?37",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.1 Wozu benötigt man Speichermedien?",
+                "Speichermedien benötigt man um größere Daten- und Programmmengen abzulegen, zu archivieren oder zu transportieren. RAM-Speicher sind teuer und flüchtig, d.h. nach Abschaltung des\nPCs sind die Daten, sofern nicht persistent gespeichert, verloren"
+            ],
+            "guid": "dS3kGt=j]I",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.2 Nach welchen Funktionsprinzip arbeiten Festplatten?",
+                "Festplatten sind magnetomotorische Speicher und basieren auf dem physikalischem Prinzip des\nMagnetismus.\nFerromagnetische Materialien werden auf eine unmagnetische Trägerscheibe aufgebracht. Diese wird zum Schreiben und Lesen an einen winzigen Elektromagneten vorbeigeführt. Dieser\nmagnetisiert durch sein Magnetfeld das Speichermaterial wodurch sich die Ferromagnete entsprechend ausrichten. Um Daten zu lesen reagiert der Schreib-Lesekopf auf den Wechsel des\nmagnetischen Flusses."
+            ],
+            "guid": "hb_]|rq`)>",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.3 Welche Codierungsarten gibt es?",
+                "• FM-Codierung (Frequenzmodulation)\n• MFM-Codierung (Modulierte Frequenzmodulation)\n• RLL-Codierung (Run length limited)\nModerne Codierungsverfahren:\n• PRML-Verfahren (Partial Response, Maximum Likelihood)"
+            ],
+            "guid": "mHh8.x5Z8T",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.4 Welchen Einfluss hat die Codierung auf die\nSpeicherkapazität?",
+                "Durch entsprechend gewählte Codierung lässt sich die Speicherkapazität erhöhen."
+            ],
+            "guid": "k}fb$FA)|v",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.5 Durch welche technische Maßnahme wurde die Speicherkapazität noch\nweiter erhöht?",
+                "Durch Perpendicular Recording. Hierbei wird die Magnetisierung vertikal vorgenommen. Dadurch konnte der Abstand zwischen den einzelnen Flußwechseln weiter verkleinert werden"
+            ],
+            "guid": "eZ[;_C+>&D",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.6 Nennen Sie einige Kenndaten von Festplatten!",
+                "• Umdrehungsgeschwindigkeit\n• Positionierzeit - wie lange dauert die Positionierung der Schreib- Leseköpfe\n• Einstellzeit\n• Latenzzeit - Zeit von Positionierung bis zum Finden der gesuchten Daten.\n• mittlere Datenzugriffszeit - wie lange dauert es von Anforderung bis Finden der Daten.\n• Mediumtransferrate - Übertragungsrate&nbsp;• Datentransferrate - Datenübertragung zwischen Hauptspeicher und Festplattencontroller"
+            ],
+            "guid": "JO~6AGg{Is",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.7 Welche Vorteile haben SSDs?",
+                "• wenig Wärmeentwicklung\n• geringer Stromverbrauch\n• schnelle Zugriffszeiten\n• keine Vibrationsentwicklung da keine beweglichen Teile"
+            ],
+            "guid": "JW$cz5*x;Q",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.8 Was versteht man unter Softsektorierung?",
+                "Softsektorierung oder auch Low-Level Formatierung genannt, ist die Einteilung des Datenträgers in Spuren und Sektoren. Bei der Softsektorierung wird der Anfang jedes Sektors durch\nbestimmte Magnetisierungsmuster markiert."
+            ],
+            "guid": "hZb;=X~PoH",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.9 Wie kann durch Bit-Zone-Aufzeichnung die Speicherkapazität erhöht\nwerden?",
+                "Bei gleicher Größe der Spurelemente passen auf den äußeren Spuren deutlich mehr Sektoren als\nauf den inneren Spuren. Daher teilt man die Festplatte in Zonen auf in denen die Sektoranzahl\ngleich bleibt. Das nennt man Zone Bit Recording. Hierfür wird das LBA-Verfahren benötigt. Es\nwerden dabei die Sektoren durchnummeriert um eine klare Schnittstelle für das Betriebssystem\nbereitszustellen."
+            ],
+            "guid": "xf.$!emn.[",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.10 Wie werden die Daten auf einer Festplatte adressiert?",
+                "Durch Angabe von Zylinder, Kopf und Sektornummer.\nErst wird ein Zylinder angegeben, das sind die Spuren aller Scheiben an der gleichen Position. Damit ist noch nicht die Scheibe selektiert. Das wird durch Angabe des Kopfes gemacht.\nLetztlich wird durch Angabe der Sektornummer der Sektor selektiert."
+            ],
+            "guid": "HD#5(}kF0[",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.11 Welche Aufgaben übernimmt ein Festplatten-Controller?",
+                "Der Festplattencontroller verbirgt die Details vor dem Betriebssystem und übernimmt die LBAAdressierung. Der Controller ordnet der LBA-Adresse einer physischen Position auf dem Plattenstapel zu, positioniert den Arm über den Zylinder, wählt den Kopf aus und liest solange bis\nder Sektor gefunden wurde."
+            ],
+            "guid": "K-?F2CZ7Os",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.12 Welche Schnittstellenstandards gibt es?",
+                "ATA/SATA-Schnittstelle (Advanced Technology Attachment)\nSCSI-Schnittstelle (Small Computer Systems Interface)\nUSB-Schnittstelle (Universal Serial Bus)\nSAS (Serial Attached SCSI)"
+            ],
+            "guid": "DoLi>rq;av",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.13 Wodurch kann die Leistungsfähigkeit einer oder mehrerer Festplatten\nerhöht werden?",
+                "Durch ein RAID-System.\nRAID-0 - Striped\nRAID-1 - Mirror"
+            ],
+            "guid": "H&@cFn?ZY$",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.14 Weshalb werden Festplatten partioniert / formatiert?",
+                "Eine große Festplatte wird häufig partioniert um beispielsweise Betriebssystemdaten von anderen Daten logisch zu trennen. Oder man möchte mehrere Betriebssysteme auf einer Festplatte\ninstallieren."
+            ],
+            "guid": "j1j4i94*j_",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.15 Welche Aufgaben hat ein Dateisystem?",
+                "Die Hauptaufgabe eines Dateisystems ist es, dem Anwender eine logische Sicht zum Zugriff\nauf Dateien bereitzustellen."
+            ],
+            "guid": "QF.G^R[nwE",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.16 Was ist ein Cluster?",
+                "Die Zusammenfassung mehrerer Sektoren. Zur Adressierung wird die LBA des Basissektors\nbenutzt."
+            ],
+            "guid": "GREhZ4}Mb@",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.17 Welche Arten von Dateisystemen gibt es? Nennen Sie\nBeispiele!",
+                "FAT, FAT32, HPFS, NTFS, EXT2fs, ReiserFS"
+            ],
+            "guid": "CIw1fWtTP<",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.18 Was ist ein FAT?",
+                "FAT bedeutet File Allocation Table und ist eine Tabelle in Form einer verketteten Liste, die\ndirekt nach dem Bootsektor gespeichert wird"
+            ],
+            "guid": "nu|o#SwxXs",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.19 Erläutern Sie Aufbau und Speicherprinzip einer CD-ROM / CD-R / CD-RW\n/ DVD!",
+                "Bei CD-ROMs werden Laserstrahlen zum Lesen und Schreiben benutzt. Die Daten werden in\nForm von Erhöhungen (Lands) und Vertiefungen (Pits) auf einer Speicherschicht aufgebracht.\nCD-ROMs werden nicht in Form von Sektoren in konzentrischen Spuren eingeteilt, sondern\nbesitzen eine einzige große sprialförmige Spur mit einer Länge von etwa 5,6 km. Die Spur\nbeginnt im Zentrum und läuft nach außen."
+            ],
+            "guid": "m_d6so&{$?",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.20 Erläutern Sie, wie von einer CD-ROM gelesen wird!",
+                "Der Laserstrahl (Infrarotbereich 780nm) wird auf die Speicherschicht fokussiert. Mit einer Leseoptik wird festgestellt wie der Strahl von der Oberfläche reflektiert wird. Der Übergang von\nLand zu Pit erzeugt durch eine Phasenverschiebung ein diffuses Licht und kann so erkannt werden. Es wird eine 1 zugeordnet. Dagegen wird der Laserstrahl bei durchgehenden Pits oder\nLands normal reflektiert."
+            ],
+            "guid": "F<*x=J7,..",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.21 Wo wird die Datenkodierung von CD-ROMs spezifiziert?",
+                "In sogenannten farbigen Büchern.\nRed Book - spezifiziert Audio-CDs\nOrange Book - spezifiziert CD-R, CD-RWs."
+            ],
+            "guid": "wCjP(Ki7J!",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.3.22 Wie werden die Daten bei optischen Speichermedien aufgezeichnet /\nformatiert?",
+                "Ein Laser mit höherer Energie zerstört die Lackschicht. Dadurch entstehen dunkle Flecken,\nwelche als Pits erkannt werden können."
+            ],
+            "guid": "L713V!E6uO",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.4.1 Wie funktionieren CRT-Bildschirme?",
+                "CRT-Bildschirme besitzen eine Ëlektronenkanone\"bestehened aus einer Kathode und einer Ablenkeinheit. Die Elektronen die aus der beheizten Kathode \"gefeuert\"werden, werden durch die\nAblenkeinheit (Magnet) horizontal und vertikal abgelenkt und auf den Bildschirm (Anode) gebracht. Auf der Innenseite des Bildschirms sind leuchtende Phosphorpunkte angebracht. Diese\nleuchten bei Eintreffen des Elektronenstrahls auf und erzeugen so die einzelnen Bildpunkte. Vor\nder Innenseite des Bildschirmes befindet sich eine Lochmaske, die dafür sorgt, dass der Elektronenstrahl den Bildpunkt auch genau trifft. Der Elektronenstrahl wird zeilenweise von rechts\nnach links geführt."
+            ],
+            "guid": "Gc`b_X^wP+",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.4.2 Wie funktionieren LCD-Bildschirme?",
+                "Flüssigkristall-Anzeigen basieren auf den optischen Eigenschaften von Kristallen, die aus\ndurchsichtigen organischen Molekülen bestehen. Diese stabförmigen Moleküle liegen in zähflüssiger Form vor und haben die Eigenschaft, Lichtewellen zu polarisieren. Unpolarisiertes\nLicht dringt über einen Polarisationsfilter ein, trifft auf zwei um 90 Grad gedrehte Ausrichtungsschichten, an denen sich die Moleküle ausrichten. Das Licht wird durch die Moleküle um\n90 Grad polarisiert, trifft auf den zweiten vertikalen Polarisationsfilter, der die Lichtwellen passieren lässt. Der Betrachter sieht einen hellen Lichtpunkt. Im anderen Falle wird eine Spannung\nan die Ausrichtungsschichten gebracht. Dadurch richten sich die Moleküle horizontal gleichförmig aus. Das Licht passiert den ersten Polarisationsfilter, wird durch die Moleküle nicht mehr\num 90 Grad verdreht, trifft auf den zweiten Polarisationsfilter, der nun das Licht blockiert. Der\nBetrachter sieht einen schwarzen Bildpunkt."
+            ],
+            "guid": "Q4V0Y(?^h<",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.4.3 Was für Arten von Anzeigen gibt es bei\nLCD-Bildschirmen?",
+                "Es gibt passiv und aktiv Matrix Anzeigen. Bei passiven Matrixanzeigen befinden sich die Spannungsschalttransistoren im Controller der LCD-Anzeige. Bei Aktiv Anzeigen befinden sich\nan jedem Kreuzungspunkt des Bildschirms Dünnfilm-Transistoren. Diese Bildschirme werden\nTFTs genannt (Thin Film Transistor). Der Vorteil der TFTs ist die höhere Bildwiederholungsrate. Nachteil sind höhere Kosten durch mehr Transistoren und niedrige Fehlerquote (Pixelfehler)."
+            ],
+            "guid": "IvHnv![{xp",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.4.4 Welche Monitorschnittstellen kennen Sie?",
+                "• VGA\n• DVI&nbsp;• HDMI\n• DisplayPort"
+            ],
+            "guid": "A_,caG1d7J",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.4.5 Welche Nachteile hat man beim Anschluss eines TFTs oder LCDs über\nVGA?",
+                "Die vom Graphikadapter erzeugten digitalen Signale werden mühsam in analoge umgewandelt\nund im Monitor wieder in digitale Signale umgewandelt werden."
+            ],
+            "guid": "Kh,rlSr1]&",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.4.6 Welchen Vorteil hat HDMI gegenüber DVI?",
+                "Über HDMI können auch Audiodaten übermittelt werden."
+            ],
+            "guid": "EBXqlknm,z",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.4.7 Was ist der Vorteil des DisplayPorts?",
+                "Dieser wurde extra dafür konzipiert, dass LCD-Anzeigen ohne besondere Controllerbausteine angesprochen werden können. Dies führt zu schmaleren Monitoren und kann intern gut in\nNotebooks benutzt werden."
+            ],
+            "guid": "peSq!8bZ~?",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.4.8 Wie werden Texte und Grafiken auf einem PC-Bildschirm\ndargestellt?",
+                "Der Rechner sendet dem Graphikprozessor Befehle, um bestimmte Objekte zu zeichnen. Die\nheutigen Graphikprozessoren übernehmen den Großteil der Rechenoperationen. Generell muss\ndie Pixelmatrix des Bildes berechnet und an den Graphikadapter übertragen werden, der diese\ndann anzeigt"
+            ],
+            "guid": "Pv~0{YCOJ1",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.4.9 Wozu benötigt man einen Zeichensatz-ROM?",
+                "Das sogenannte Character-ROM beinhaltet die Zeichensatzmatrix für jedes auszugebenes Zeichen (8x8 Pixel)."
+            ],
+            "guid": "ddW|CL#?|Y",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.4.10 Wie kann ein Grafikprozessor den Hauptprozessor eines PC’s\nentlasten?",
+                "Der Graphikprozessor übernimmt die Berechnung der Pixelmatrix. Er empfängt dafür Graphikbefehle, z.B. zum Zeichnen einer Linie oder einer Dreiecks."
+            ],
+            "guid": "DoMDPyZdce",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.4.11 Was versteht man unter einem Video-RAM?",
+                "Ein Video-RAM wird zur Pufferung benutzt, damit das Bild in einem angezeigt werden\nkann."
+            ],
+            "guid": "v2Gf=YEJd_",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.4.12 Wie werden die Schritte zur Visualisierung von 3D-Szenen\nbezeichnet?",
+                "Als Rendering-Pipeline."
+            ],
+            "guid": "sN6nlyLgPI",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.4.13 Wozu dient eine Soundkarte?",
+                "Eine Soundkarte dient zur Wiedergabe von Audio-Daten über einen Lautsprecher."
+            ],
+            "guid": "uU38L$:AIP",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.4.14 Wie ist eine Soundkarte aufgebaut?",
+                "Eine Soundkarte beinhaltet einen digitalen Signalprozessor, einen Speicher, Digital Analog\nWandler, Analog Digitalwandler und Schnittstellen nach außen (z.B. Klinkenstecker)."
+            ],
+            "guid": "eb.)S7{YCP",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.5.1 Was geschieht bei einem Tastenanschlag auf der Tastatur des\nPCs?",
+                "Beim Tastenanschlag kommt es zu einem Schließen eines Kontaktes auf der Tastatur, der\nsich im Kreuzungspunkt einer Matrix befindet. Diese besteht aus Zeilen- und Spaltenleitungen. Über Zeilen- und Spaltencode kann jede Taste eindeutig identifiziert werden. Jede Taste erzeugt einen sogenannten SCAN-Code. Dieser Scan-Code wird in einem FIFO-Puffer gespeichert und über die entsprechende Schnittstelle (USB, PS/2) an den PC übermittelt. Der\nSchnittstellen-Controller erhält die Daten vom Tastatur-Controller und erzeugt einen Interrupt\nan den CPU. Jetzt kann der CPU anhand von Behandlungsroutinen im BIOS die Scan-Codes\nin ASCII-Zeichen umsetzen. Eine Tastatur erzeugt Make- und BreakCode. Make-Codes sind\ndie Scan-Codes der Tasten wenn diese gedrückt werden, Break-Codes wenn diese wieder losgelassen werden. Daran kann z.B. Groß- und Kleinschreibung erkannt werden (Shift+a für\nA)."
+            ],
+            "guid": "H}EstPFz_^",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.5.2 Nach welchen Funktionsprinzipien arbeitet eine Maus / Joystick / Scanner\n/ Digitalkamera / LCD-Bildschirm?",
+                "Eine mechanische Maus verfügt über einen Ball, der bei Bewegung an Achsen mit Rollen vorbeigeführt wird. Eine optische Maus besitzt eine Leuchtdiode oder Laserdiode mit der die Oberfläche unter der Maus abgetastet wird und dadurch Bewegung erkannt wird."
+            ],
+            "guid": "Q3GZYH)j#a",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.5.3 Welche Arten von Druckern kenn Sie?",
+                "Laserdrucker, Thermotransferdrucker, Tintenstrahldrucker"
+            ],
+            "guid": "u9:XXsTYt?",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.5.4 Wozu dienen Gerätetreiber?",
+                "Die werden benötigt, um die Peripheriegeräte ins Betriebssystem zu intregrieren. Der Gerätetreiber kann über bestimmte Adressen auf Register des Controllers zugreifen. Darüber wird\ndieser programmiert."
+            ],
+            "guid": "qy3&.<[.k]",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.5.5 Wie sind Gerätetreiber aufgebaut?",
+                "Gerätetreiber prüfen nach Aufruf durch das Betriebssystem die Eingangsparameter auf Korrektheit und übermitteln dann die Befehle und Daten in die Controller-Register bzw. Speicherbereiche und warten, bis die so erteilten Aufträge ausgeführt wurden. Nachdem sie vom Interrupt\nhandler wieder äufgeweckt\"wurden, überprüfen Sie, ob Fehler aufgetreten sind."
+            ],
+            "guid": "z^%[,Z<RJh",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.6.1 Wozu dient das ISO/OSI-Schichtenmodell?",
+                "Um zum einen die Komplexität der Zusammenhänge in einem Netzwerk durch die Unterteilung in Schichten zu reduzieren. Dies reduziert Fehleranfälligkeit und Störanfälligkeit und ist\nübersichtlicher. Durch Spezialisierung können Produkte und Protokolle sich schneller und besser entwickeln. Schichten erlauben die Spezifikation von herstellerunabhängigen Schnittstellen."
+            ],
+            "guid": "f7*^4^D4Eo",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.6.2 Nennen Sie die OSI-Schichten und geben Sie für jede Schicht mindestens\nein Protokkoll und die entsprechende Hardware an.",
+                "Schichtnummer Name Protokoll Hardware&nbsp;<div>-------------------------------------------------------</div><div>7 Anwendungsschicht FTP, HTTP, HTTPS, SMTP, LDAP Gateway&nbsp;</div><div><br></div><div>6 Darstellungschicht FTP, HTTP, HTTPS, SMTP, LDAP Gateway&nbsp;</div><div><br></div><div>5 Sitzungsschicht FTP, HTTP, HTTPS, SMTP, LDAP Gateway&nbsp;</div><div><br></div><div>4 Transportschicht FTP, HTTP, HTTPS, SMTP, LDAP Gateway&nbsp;</div><div><br></div><div>3 Netzwerkschicht IP, ICMP, IPX Router&nbsp;</div><div><br></div><div>2 Datenverbindungsschicht Ethernet, Token Ring, FDDI Bridge, Switch&nbsp;</div><div><br></div><div>1 Physische Schicht Ethernet, Token Ring, FDDI Repeater, Hub</div>"
+            ],
+            "guid": "K&EX0}P.i1",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.6.3 Was ist ein Protokoll?",
+                "Ein Protokoll ist eine Vereinbarung zum Datenaustausch zwischen Computern, Prozessen oder\nverteilte Systeme."
+            ],
+            "guid": "rKkN4ER5*{",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.6.4 Welche Komponenten werden mindestens benötigt, um zwei PC’s\nmiteinander zu vernetzen?",
+                "• zwei Netzwerkkarten (eine pro PC)\n• Cross-Link Kabel (gekreuztes Netzwerkkabel)"
+            ],
+            "guid": "P}IAoIG3<g",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.6.5 Welche weiteren Netzwerkkomponenten braucht man, um lokale\nNetzwerke zu realisieren?",
+                "• ein Hub oder Switch\n• zwei Netzwerkkabel&nbsp;<div><br></div><div>oder\n• ein Router mit DHCP mit 2 Ports\n• zwei Netzwerkkabel</div>"
+            ],
+            "guid": "Ju0l.;Ykk3",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.6.6 Welche Arten lokaler Netzwerke gibt es?",
+                "Klasse A, B, C-Netzwerke"
+            ],
+            "guid": "M}l$Z(Xus0",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.6.7 Worin besteht der Unterschied zwischen LAN und\nWLAN?",
+                "LAN ist ein lokales Netzwerk per Kabelverbindung, WLAN bedeutet Wireless LAN und beschreibt eine Funktechnologie zum Aufbau eines lokalen Netzwerkes."
+            ],
+            "guid": "ew#AX9@Gj:",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.6.8 Nennen Sie Beispiele für Verbindungsmedien zum Aufbau von\nWANs!",
+                "Benutzung des öffentlichen Telefonnetzes. ISDN. DSL."
+            ],
+            "guid": "Ea^Ws2Y^s]",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.7.1 Welche Arten mobiler Systeme kennen Sie?",
+                "• Laptops\n• Notebooks\n• Sub-Notebooks\n• Mini-Notebooks\n• Tablet-PCs"
+            ],
+            "guid": "gZspXXt^C@",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.7.2 Diskutieren Sie die wichtigsten Designaspekte mobiler\nSysteme!",
+                "Mobile Geräte müssen eine geringe Größe aufweisen um transportable zu sein, ein geringes\nGewicht haben, wenig Strom verbrauchen für hohe Laufzeiten, geringe Wärme- und Geräuschentwicklung aufweisen und einfach in der Bedienung sein."
+            ],
+            "guid": "rcyM>T`bzZ",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.7.3 Worin unterscheiden sich GSM und UMTS?",
+                "UMTS (bis zu 2 Mbit/s) arbeitet auf einem höheren Frequenzband und hat deutlich höhere\nBandbreiten als GSM (76 kbit/s)"
+            ],
+            "guid": "H}x3S+ch]K",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.7.4 Was versteht man unter einer Client-Server-Architektur?",
+                "Client-Server Architekturen haben einen Server (Leistungserbringer) und einen Client (Leistungskonsument). Der Server erledigt Aufgaben für den oder die Clients."
+            ],
+            "guid": "k|r6/0lV@K",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.7.5 Vergleichen Sie Client-Server-Architektur mit Peer-to-Peer Netzwerken",
+                "Bei Peer-to-Peer Netzwerken handelt es sich um einen Rechnerverbund, in dem jeder Rechner\nden selben Funktionsumfang hat. Das bedeutet, jeder Rechner ist sowohl Nutznießer (Client)\nalso auch Dienstanbieter (Server)."
+            ],
+            "guid": "nYeE<T4$V,",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.7.6 Beschreiben Sie Beispiele für Peer-to-Peer Netzwerke",
+                "Ein Beispiel ist das Netzwerk Napster, welches Daten zum Musikaustausch anbietet. Meldet\nman sich bei diesem Dienstanbieter an, so werden die Daten die man auf seinem Rechner gespeichert hat, allen anderen Nutzern zur Verfügung gestellt als auch dass man Daten von allen\nanderen Nutzern herunterladen kann."
+            ],
+            "guid": "f`w,6*GiR.",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.7.7 Was ist ein Cluster-Computer?",
+                "Ein Cluster-Computer ist ein Lastverbund von Computern."
+            ],
+            "guid": "h)7`2=lBLv",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.7.8 Welche Arten von Cluster-Computern kann man\nunterscheiden?",
+                "Cluster of PCs\n• Cluster of Workstations\n• Cluster of SMPs"
+            ],
+            "guid": "Oem9Dh4z9f",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1.7.9 Was versteht man unter Grid-Computing?",
+                "Dies bezeichnet eine transparente zur Verfügungstellung von Ressourcen. Siehe SETI-athome."
+            ],
+            "guid": "DzHknf5&ZX",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ordnen Sie die im Kurs behandelten „Busse“ nach aufsteigender Übertragungsrate (&lt;) und\ngeben Sie – in Klammern die (theoretisch) erreichbaren Raten an. (Achten Sie dabei auf\ndie Angabe einer jeweils korrekten Einheit.)\nIEEE 1394a, PCI (32 Bit, 33.333 MHz), PCIe-x32, SATA II, Ultra-ATA/133, USB 2.0.",
+                "geordnet: IEEE 1394a ( 400 Mbit/s ) &lt; USB 2.0 ( 480 Mbit/s )\n &lt; Ultra-ATA/133 ( 133 MByte/s ) &lt; PCI ( 133,3 MByte/s )\n &lt; SATA II ( 300 MByte/s ) &lt; PCIe-x32 ( 32 GByte/s )"
+            ],
+            "guid": "/k|1P}-(e",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "i) Geben Sie – in der richtigen Reihenfolge – an, welche Komponenten eines typischen\nPC-Prozessors ein Befehl durchläuft, nachdem er zur Verarbeitung aus dem Arbeitsspeicher geholt wurde. (Es reicht die Angabe der Komponenten – wahlweise für einen\nProzessor von AMD oder Intel –, ihre Funktion muss nicht beschrieben werden! )",
+                "L2-Cache – L1-Befehls-Cache – (Pre)fetch-Puffer – Vordecoder/Befehls-Warteschlange –\nDecoder – µOp/MacroOp-Puffer – Befehlssteuereinheit/ReOrder-Puffer – Scheduler/ Reservation Station – Operationswerk"
+            ],
+            "guid": "QFti$eJYsx",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ii) Geben Sie – in der richtigen Reihenfolge – an, welche Komponenten eines typischen\nPC-Prozessors (von AMD oder Intel) ein Datum durchläuft, nachdem es zur Verarbeitung\naus dem Arbeitsspeicher geholt wurde, und welchen Weg das Ergebnis der Verarbeitung\nbis zur Ablage im Arbeitsspeicher nimmt.",
+                "L2-Cache – L1-Daten-Cache – Lade/Speichereinheit – Register – Operationswerk –\nRegister – Lade/Speichereinheit – L1-Daten-Cache – L2-Cache"
+            ],
+            "guid": "Pn=]:.1QXO",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ergänzen Sie die nachfolgende Tabelle gebräuchlicher Speichermodule durch die Angabe der fehlenden Werte.",
+                "DIMM-\n Bezeichnung&nbsp;<div>BausteinBezeichnung&nbsp;</div><div>Speichertakt\nin MHz&nbsp;</div><div>E/A-Takt\nin MHz&nbsp;<div>nominelle\nÜbertragungsrate in MT/s1&nbsp;</div><div>Übertragungsleistung in\nGB/s&nbsp;</div><div><br></div><div>PC2-6400&nbsp;</div><div>PC3-6400&nbsp;</div></div>"
+            ],
+            "guid": "jl5o`/M;gO",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ii) Geben Sie an, was man unter der CAS-Latency (tCL bzw. CL) versteht?",
+                "Anzahl der Taktzyklen von der Selektion einer Speicherzelle bis zur Ausgabe des Datums\nan den Ausgängen des Speicherbausteins"
+            ],
+            "guid": "xh0.t#ZZD>",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie groß ist tCL (in ns) für einen DDR2-800-Baustein, wenn er die Angabe CL=4 trägt?\n(Herleitung angeben!)",
+                "tCL = 1/(2 * freq) * CL = 1 / (2 * 200 MHz) * 4 = 10 ns,\n wobei freq = 200 der Speichertakt in MHz ist."
+            ],
+            "guid": "P!.jX>I~<b",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"Screenshot 2020-08-02 at 10.18.12.png\"><div><br></div><div>Bestimmen Sie aus der linearen Adresse die Anfangsadresse des selektierten Eintrags im\nSeitentabellen-Verzeichnis2\n und kennzeichnen Sie diesen Eintrag im oben stehenden\nBild.<br></div><div><br></div>",
+                "Aus CR3 kommen die oberen 20 Adressbits – AD400 . Die höchstwertigen 10 Bits der\nlinearen Adresse werden durch die beiden unteren 0-Bits ergänzt und liefern damit die\nunteren 12 Bits – 03C. Damit ergibt sich die Anfangsadresse des selektierten Eintrags zu:\nAD40 003C."
+            ],
+            "guid": "k$=+L4<65p",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"Screenshot 2020-08-02 at 10.18.12.png\"><div>Ermitteln Sie aus dem selektierten Eintrag die oberen fünf Tetraden (20 Bits) der Basisadresse der Seitentabelle und tragen Sie diese im Adressfeld (AF) neben der Seitentabelle ein.<br></div>",
+                "Im selektierten Eintrag des Seitentabellen-Verzeichnisses steht der Wert 008B7 für AF."
+            ],
+            "guid": "iTaf.|k+H<",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"Screenshot 2020-08-02 at 10.18.12.png\"><div>Bestimmen Sie die Anfangsadresse des selektierten Eintrags in der Seitentabelle und kennzeichnen Sie ihn im oben stehenden Bild.<br></div>",
+                "Die am unteren Ende durch zwei 0-Bits ergänzten Bits 21 – 12 der linearen Adresse\nergeben E88. Damit ist die Anfangsadresse des Seitentabelleneintrags: 008B 7E88."
+            ],
+            "guid": "JZNP(TH{+/",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"Screenshot 2020-08-02 at 10.18.12.png\"><div>Bestimmen Sie aus dem selektierten Eintrag der Seitentabelle und der linearen Adresse\ndie physikalische Adresse des Speicherzugriffs und tragen Sie sie ins oben stehende\nBild ein.<br></div>",
+                "Die höherwertigen 20 Bits im Seitentabellen-Eintrag sind: FAB02. An diese werden die<br>unteren 12 Bits der linearen Adresse angehängt. Damit ergibt sich die physi(kali)sche<br>Adresse zu: FAB0 28E0."
+            ],
+            "guid": "eAqFFN4#{@",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"Screenshot 2020-08-02 at 10.18.12.png\"><div>1) Benennen Sie den Speicher, in dem die Speicherverwaltungseinheit das Ergebnis der\nAdressumsetzung ablegt, durch seine Abkürzung und die vollständige Bezeichnung<br></div><div>2)&nbsp;Geben Sie für die im oben stehenden Bild dargestellte Adressumsetzung den entsprechenden Eintrag in diesem Speicher an.</div>",
+                "1) TLB – Translation Lookaside Buffer.<br>Der TLB ist gewöhnlich ein vollassoziativer Cache.<div>2)&nbsp;Tag / lineare Adr.&nbsp;</div><div>03FA2<br></div><div>Datum / physik. Adr.&nbsp;</div><div>&nbsp;FAB02&nbsp;</div><div><br></div><div>Da alle Seiten (auch die Seitentabelle und das Seitentabellen-Verzeichnis) 4 kB groß\nsind, beginnen sie immer an Adressen, in denen die unteren 12 Bits gleich 0 sind. Daher\nmüssen diese Adressbits nicht im TLB berücksichtigt werden.</div>"
+            ],
+            "guid": "it|b81&USS",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"Screenshot 2020-08-02 at 10.18.12.png\"><div>Welche Funktion haben die Bits der in den Tabelleneinträgen mit ‚X’ gekennzeichneten\nHexadezimalziffern (Tetraden)? Geben Sie wenigstens eines dieser Bits und seine Bedeutung an:<br></div>",
+                "Bei den mit ‚X’ bezeichneten 12 Bits handelt es sich um Steuerbits, die die Adressumsetzung beeinflussen.\nEin wichtiges Bit ist zum Beispiel das Present Bit (P), das anzeigt, ob die selektierte Seite\noder die Seitentabelle bzw. das Seitentabellen-Verzeichnis sich momentan im Arbeitsspeicher befindet oder erst zur Durchführung des Zugriffes von der Festplatte durch das\nBetriebssystem geladen werden muss."
+            ],
+            "guid": "Kje;xQc$q.",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Geben Sie an, was durch die Ziffern 2 bzw. 7 in der Bezeichnung der RLL 2.7-Codierung\nangegeben wird und welche Ergebnisse dadurch für die Aufzeichnung erreicht werden",
+                "„2“: Zwischen zwei Flusswechseln liegen wenigstens 2 Abtastpunkte ohne Flußwechsel.\nErgebnis: Pro Spurelement können zur Erhöhung der Speicherkapazität drei Abtastpunkte untergebracht werden.\n„7“: Zwischen zwei Flusswechseln liegen höchstens 7 Abtastpunkte ohne Flußwechsel.\nErgebnis: Gewährleistung der Synchronisierung des Taktgenerators durch einen Leseimpuls nach spätestens 7 Abtastpunkten ohne Leseimpuls."
+            ],
+            "guid": "D}ED#80iXz",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Die Datenbit-Folge D = 0101 1010 0110 0011 soll auf einer Festplatte mit RLL 2.7-Codierung aufgezeichnet werden. Tragen Sie dazu in das folgende Bild die aufgezeichneten\nDatenbits, die resultierende RLL 2.7-Codierung (nach unten stehender Tabelle), den Verlauf des Schreibstroms sowie die Magnetisierungsrichtung der Festplatte ein. Als Rastergröße in waagerechter Richtung ist darin die Länge eines Spurelements vorgegeben, d.h.\nder kleinste Abschnitt gleichgerichteter Magnetisierung. Ordnen Sie die Datenbits und den\nSpeichercode jeweils über den Spurelementen an, in denen sie abgespeichert werden.\nKennzeichnen Sie außerdem durch senkrechte Trennlinien die Gruppen von Datenbits, die\ngemeinsam in den Speichercode umgesetzt werden, sowie diese Code-Gruppierungen.<div><img src=\"Screenshot 2020-08-02 at 10.22.41.png\"><br></div>",
+                "<img src=\"Screenshot 2020-08-02 at 10.23.18.png\">"
+            ],
+            "guid": "jx4NZ*uVRI",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Auf der Platte sei die durch das folgende Bild dargestellte Magnetisierung gegeben. Ermitteln Sie den Verlauf der resultierenden Leseimpulse bei der RLL 2.7-Codierung und tragen\nSie den Speichercode und die Datenbits ein. Kennzeichnen Sie wiederum durch senkrechte Trennlinien die Gruppen von Codezeichen und die daraus zu gewinnenden Gruppen von\nDatenbits.<div><img src=\"Screenshot 2020-08-02 at 10.23.59.png\"><br></div>",
+                "<img src=\"Screenshot 2020-08-02 at 10.23.59.png\">"
+            ],
+            "guid": "DRKA,x3}@a",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Das folgende Bild zeigt das Schaltsymbol einer Flash-Speicherzelle, in dem eine wichtige Bauteil-Komponente weggelassen wurde.<img src=\"Screenshot 2020-08-02 at 10.24.37.png\"><div>Zeichen Sie diese Komponente ins Bild ein und geben Sie Ihre (englische) Bezeichnung\nan:<br></div>",
+                "Floating Gate – FG"
+            ],
+            "guid": "OJ40m@l_rl",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"Screenshot 2020-08-02 at 10.24.37.png\"><div>Durch welchen Typ von Ladungsträgern: positive (+) oder negative (–) oder beide, wird\neine Information in der (vervollständigten) oben dargestellten Zelle gespeichert? Was bewirken die gespeicherten Ladungsträger?<br></div>",
+                "negative Ladungsträger (Elektronen). Die Elektronen sorgen für eine negative Vorspannung des FG, sodass der Transistor beim Lesen nicht mehr durchschaltet."
+            ],
+            "guid": "tU(szRs.|O",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"Screenshot 2020-08-02 at 10.24.37.png\"><div>Geben Sie für eines der beiden im Kurs beschriebenen Verfahren an, welche Spannungen an den Punkten A, B und L angelegt werden müssen, um die Speicherzelle zu\nprogrammieren. (Es reichen die Angaben GND, positive Spannung U, hohe positive\nSpannung U+ oder ‚beliebig’.) Beschreiben Sie außerdem die Vorgänge im Transistor.</div>",
+                "1. Variante: A: U+ B: GND L: beliebig\nBeschreibung: Die hohe Spannung UGD sorgt dafür, dass Elektronen den Isolator zwischen D und FG durchwandern und sich auf dem FG sammeln.\n2. Variante: A: U+ B: U+ L: GND\nBeschreibung: Die hohe Spannung UGS steuert den Transistor durch. Die hohe Spannung\nUDS lässt „heiße“ Elektronen durch den Isolator auf das FG wandern."
+            ],
+            "guid": "i<I?}B%:Dd",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"Screenshot 2020-08-02 at 10.24.37.png\"><div>Geben Sie in der gleichen Form an, welche Spannungen an den Punkten A, B und L angelegt werden müssen, um die Speicherzelle zu löschen. Beschreiben Sie außerdem die\nVorgänge im Transistor.<br></div>",
+                "A: GND B: beliebig L: U+\nBeschreibung: Die hohe Spannung UGS sorgt dafür, dass Elektronen den Isolator zwischen FG und S durchwandern und über L nach U+ abfließen. Dadurch wird die negative\nVorspannung von FG beseitigt und der Transistor kann zum Lesen durchschalten."
+            ],
+            "guid": "e.OV),X7eg",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ergänzen Sie die folgende Darstellung des ISO/OSI-Schichtenmodells um die Namen der einzelnen Schichten und nennen Sie – sofern nicht bereits vorgegeben – für jede Schicht eine typische Netzwerkkomponente sowie ein Protokoll.<img src=\"Screenshot 2020-08-02 at 10.26.54.png\">",
+                "<img src=\"Screenshot 2020-08-02 at 10.27.41.png\">"
+            ],
+            "guid": "tt%,le[}iy",
+            "note_model_uuid": "3f8474e2-d49c-11ea-ad1f-001cc2451923",
+            "tags": []
+        }
+    ]
+}
