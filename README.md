@@ -5,7 +5,7 @@ https://apps.ankiweb.net/
 2. Install Plugin
 CrowdAnki: https://ankiweb.net/shared/info/1788670778
 
-3. Import Json Deck in your Anki  
+3. Import Json Deck in your Anki  from /Anki folder
 User just uses it or makes some modification to it (i.e. to notes, deck settings, deck structure or note models).
 Then the user can export the deck in JSON format (accompanied by media directory with media files used in that deck) and share it with other users. For example by creating GitHub repo with it.
 Commit and Push the Anki folder to this repo
